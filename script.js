@@ -53,7 +53,7 @@ function showTemperature(response) {
   );
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
-    response.data.main.wind
+    response.data.wind.speed
   );
 }
 
